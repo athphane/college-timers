@@ -1,0 +1,23 @@
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background: 0,0,0,0.5;
+
+}
+
+#id {
+    color: aqua;
+}
+
+hr {
+    border: 2px solid red;
+    border-radius: 5px;
+    width: 18rem;
+}
+
+
+@media (max-width: 992px) {
+    .col-md  {
+        padding: 20px;
+    }
+}
