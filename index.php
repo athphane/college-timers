@@ -51,6 +51,7 @@ include 'timers.php';
               document.write(new Date().getFullYear());
             </script>
             <a href="https://athfan.com"> Athfan Khaleel</a>.
+          </strong> All rights reserved.</p>
       </div>
     </footer>
   </div>
