@@ -1,7 +1,5 @@
 <?php 
-
 include 'timers.php';
-
 ?>
 <html lang="en">
 <head>
@@ -26,7 +24,6 @@ include 'timers.php';
   <div class="d-flex w-100 h-100 p-3 mx-auto flex-column">
     <header class="masthead mb-auto">
     </header>
-
     <main role="main" class="inner cover">
         <div class="row">
             <?php
@@ -41,7 +38,6 @@ include 'timers.php';
                 }
             ?>
       </div>
-      
     </main>
 
     <footer class="mastfoot mt-auto">
@@ -55,7 +51,6 @@ include 'timers.php';
       </div>
     </footer>
   </div>
-
 
   <!-- Bootstrap core JavaScript
     ================================================== -->
@@ -93,11 +88,8 @@ include 'timers.php';
                 document.getElementById("<?php echo($data['id']) ?>").innerHTML = days + "d " + hours + "h " + minutes + "m " + seconds + "s ";
             }, 1000);
         </script>
-
     <?php
     }
     ?>
-
 </body>
-
 </html>
