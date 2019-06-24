@@ -8,7 +8,7 @@ $timers = [
     ],
     "A.I Assignment Deadline" => [
         'id' => "aiAssignmentDeadline",
-        'date' => "Jun 15, 2019 00:00:00",
+        'date' => "Aug 21, 2019 00:00:00",
         'up' => False,
     ],
     "OOSD Assignment Deadline" => [
