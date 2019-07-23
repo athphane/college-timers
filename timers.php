@@ -18,7 +18,7 @@ $timers = [
     ],
     "CNS Chimera Project" => [
         'id' => "cnsChimeraProject",
-        'date' => "Jul 31, 2019 00:00:00",
+        'date' => "Aug 6, 2019 00:00:00",
         'up' => False,
     ],
 ];
