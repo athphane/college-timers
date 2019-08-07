@@ -21,21 +21,6 @@ $timers = [
         'date' => "Aug 8, 2019 00:00:00",
         'up' => False,
     ],
-    "POC E-Assessment 1" => [
-        'id' => "poceassessment1",
-        'date' => "Jul 31, 2019 00:00:00",
-        'up' => False,
-    ],
-    "AI Exam" => [
-        'id' => "aiexam",
-        'date' => "Aug 4, 2019 00:00:00",
-        'up' => False,
-    ],
-    "POC Exam" => [
-        'id' => "pocexam",
-        'date' => "Aug 6, 2019 00:00:00",
-        'up' => False,
-    ],
     "CNS Exam" => [
         'id' => "cnsexam",
         'date' => "Aug 19, 2019 00:00:00",
