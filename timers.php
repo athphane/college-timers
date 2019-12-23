@@ -29,11 +29,6 @@ $timers = [
             'date' => 'Aug 19, 2019 00:00:00',
             'up'   => false,
         ],
-        'Another Time'=> [
-            'id'  => 'another_time',
-            'date'=> 'Aug 19, 2019 00:00:00',
-            'up'  => false,
-        ],
     ],
 
 ];
