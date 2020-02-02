@@ -11,11 +11,11 @@ include 'timers.php';
 </head>
 <body class="antialiased bg-blue-400">
     <?php
-    foreach ($timers as $timer) {
+    foreach ($timer_groups as $timer_group) {
         ?>
     <div class="md:flex px-6">
         <?php
-        foreach ($timer as $key => $data) {
+        foreach ($timer_group as $key => $data) {
             ?>
             <div class="mx-auto rounded p-6 md:w-1/3">
                 <div class="rounded bg-white shadow-md h-48 p-6 flex flex-col justify-around uppercase">
@@ -37,10 +37,10 @@ include 'timers.php';
     }
     ?>
 <?php
-foreach ($timers as $timer) {
+foreach ($timer_groups as $timer_group) {
         ?>
 <?php
-foreach ($timer as $key => $data) {
+foreach ($timer_group as $key => $data) {
             ?>
     <script>
         var <?php echo 'to_'.$data['id'] ?> =
