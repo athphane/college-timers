@@ -3,77 +3,77 @@
 $timer_groups = [
     [
         'Days Since Villa' => [
-            'id' => 'daysSinceVilla',
+            'id'   => 'daysSinceVilla',
             'date' => 'Jan 17, 2019 17:30:00',
-            'up' => true,
+            'up'   => true,
         ],
     ],
     [
         'IoT Challenge 1' => [
-            'id' => 'iotChallenge1',
+            'id'   => 'iotChallenge1',
             'date' => 'Mar 1, 2020 00:00:00',
-            'up' => false,
+            'up'   => false,
         ],
 
         'IoT Challenge 2' => [
-            'id' => 'iotChallenge2',
+            'id'   => 'iotChallenge2',
             'date' => 'Apr 15, 2020 00:00:00',
-            'up' => false,
+            'up'   => false,
         ],
 
         'IoT Challenge 3' => [
-            'id' => 'iotChallenge3',
+            'id'   => 'iotChallenge3',
             'date' => 'Jun 15, 2020 00:00:00',
-            'up' => false,
+            'up'   => false,
         ],
 
         'IoT Essay' => [
-            'id' => 'iotEssay',
+            'id'   => 'iotEssay',
             'date' => 'Jul 15, 2020 00:00:00',
-            'up' => false,
+            'up'   => false,
         ],
 
         'IoT Presentation' => [
-            'id' => 'iotPresentation',
+            'id'   => 'iotPresentation',
             'date' => 'Jul 30, 2020 00:00:00',
-            'up' => false,
+            'up'   => false,
         ],
     ],
     [
         'OOSD Use Case Diagrams' => [
-            'id' => 'oosdAssignment1',
+            'id'   => 'oosdAssignment1',
             'date' => 'Apr 23, 2020 00:00:00',
-            'up' => false,
+            'up'   => false,
         ],
 
         'OOSD Class Diagram' => [
-            'id' => 'oosdAssignment2',
+            'id'   => 'oosdAssignment2',
             'date' => 'May 23, 2020 00:00:00',
-            'up' => false,
+            'up'   => false,
         ],
 
         'OOSD Sequence Diagram' => [
-            'id' => 'oosdAssignment3',
+            'id'   => 'oosdAssignment3',
             'date' => 'Jun 30, 2020 00:00:00',
-            'up' => false,
+            'up'   => false,
         ],
 
         'OOSD Implementation' => [
-            'id' => 'oosdAssignment4',
+            'id'   => 'oosdAssignment4',
             'date' => 'Aug 02, 2020 00:00:00',
-            'up' => false,
+            'up'   => false,
         ],
     ],
     [
         'HIS Presentation' => [
-            'id' => 'hisPresentation',
+            'id'   => 'hisPresentation',
             'date' => 'May 09, 2020 00:00:00',
-            'up' => false,
+            'up'   => false,
         ],
         'PintOS' => [
-            'id' => 'pintos',
+            'id'   => 'pintos',
             'date' => 'Dec 30, 2020 00:00:00',
-            'up' => false,
+            'up'   => false,
         ],
     ],
 
