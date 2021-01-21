@@ -9,7 +9,7 @@ include 'timers.php';
     <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
     <title>College Timers</title>
 </head>
-<body class="antialiased bg-blue-400">
+<body class="antialiased bg-gray-700">
     <?php
     foreach ($timer_groups as $timer_group) {
         ?>
@@ -18,12 +18,12 @@ include 'timers.php';
         foreach ($timer_group as $key => $data) {
             ?>
             <div class="mx-auto rounded p-6 md:w-1/3">
-                <div class="rounded bg-white shadow-md h-48 p-6 flex flex-col justify-around uppercase">
+                <div class="rounded bg-orange-500 hover:bg-blue-300 shadow-md h-48 p-6 flex flex-col justify-around uppercase">
                     <div>
-                        <p class="text-2xl text-base font-bold text-grey-dark text-center"><?php echo $key ?></p>
+                        <p class="text-2xl text-base font-bold text-gray-900 text-center"><?php echo $key ?></p>
                     </div>
                     <div>
-                        <p id="<?php echo $data['id'] ?>" class="text-3xl text-red-500 font-bold text-center">
+                        <p id="<?php echo $data['id'] ?>" class="text-3xl text-white font-bold text-center">
                             Loading...
                         </p>
                     </div>
