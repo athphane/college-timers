@@ -18,12 +18,12 @@ include 'timers.php';
         foreach ($timer_group as $key => $data) {
             ?>
             <div class="mx-auto rounded p-6 md:w-1/3">
-                <div class="rounded bg-orange-500 hover:bg-blue-300 shadow-md h-48 p-6 flex flex-col justify-around uppercase">
+                <div class="rounded bg-blue-400 shadow-md h-48 p-6 flex flex-col justify-around uppercase">
                     <div>
-                        <p class="text-2xl text-base font-bold text-gray-900 text-center"><?php echo $key ?></p>
+                        <p class="text-3xl text-base font-bold text-gray-900 text-center"><?php echo $key ?></p>
                     </div>
                     <div>
-                        <p id="<?php echo $data['id'] ?>" class="text-3xl text-white font-bold text-center">
+                        <p id="<?php echo $data['id'] ?>" class="text-2xl text-white font-bold text-center">
                             Loading...
                         </p>
                     </div>
@@ -50,7 +50,7 @@ foreach ($timer_group as $key => $data) {
 
             // Find the difference between the current time and the toDate time..
             <?php
-            if ($data['up']) {
+            if (isset($data['up'])) {
                 ?>
             var distance = now - <?php echo 'to_'.$data['id'] ?>;
             <?php
