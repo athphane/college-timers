@@ -11,27 +11,29 @@ include 'timers.php';
 </head>
 <body class="antialiased bg-gray-700">
     <?php
-    foreach ($timer_groups as $timer_group) {
+    foreach ($timer_groups as $group => $timer_group_data) {
         ?>
-    <div class="md:flex px-6">
-        <?php
-        foreach ($timer_group as $key => $data) {
-            ?>
-            <div class="mx-auto rounded p-6 md:w-1/3">
-                <div class="rounded bg-blue-400 shadow-md h-48 p-6 flex flex-col justify-around uppercase">
-                    <div>
-                        <p class="text-3xl text-base font-bold text-gray-900 text-center"><?php echo $key ?></p>
-                    </div>
-                    <div>
-                        <p id="<?php echo $data['id'] ?>" class="text-2xl text-white font-bold text-center">
-                            Loading...
-                        </p>
-                    </div>
+        <p class="text-xl text-base font-bold text-white ml-20"><?php echo $group ?: null ?></p>
+        <div class="md:flex px-6">
+            <?php
+            foreach ($timer_group_data as $key => $data) {
+                ?>
+                <div class="mx-auto rounded p-6 md:w-1/3">
+                    <div class="rounded bg-blue-400 shadow-md h-48 p-6 flex flex-col justify-around uppercase">
+                        <div>
+                            <p class="text-2xl text-base font-bold text-gray-900 text-center"><?php echo $key ?></p>
+                            <p class="text-sm text-red-900 font-medium text-center"><?php echo $data['date'] ?></p>
+                        </div>
+                        <div>
+                            <p id="<?php echo $data['id'] ?>" class="text-2xl text-white font-bold text-center">
+                                Loading...
+                            </p>
+                        </div>
 
+                    </div>
                 </div>
-            </div>
-        <?php
-        } ?>
+                <?php
+            } ?>
     </div>
     <?php
     }

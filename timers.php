@@ -1,14 +1,14 @@
 <?php
 
 $timer_groups = [
-    [
+    'villa' => [
         'Days Since Villa' => [
             'id'   => 'daysSinceVilla',
             'date' => 'Jan 17, 2019 17:30:00',
             'up'   => true,
         ],
     ],
-    [
+    'DSP' => [
         'DSP Poster' => [
             'id'   => 'dspPoster',
             'date' => 'June 13, 2021 20:00:00',
@@ -22,7 +22,7 @@ $timer_groups = [
             'date' => 'Sept 7, 2021 00:00:00',
         ],
     ],
-    [
+    'ESD' => [
         'ESD Sprint 2' => [
             'id'   => 'esdSprint2',
             'date' => 'June 6, 2021 20:00:00',
@@ -40,7 +40,7 @@ $timer_groups = [
             'date' => 'July 15, 2021 20:00:00',
         ],
     ],
-    [
+    'Ethics' => [
         'Ethics Topic Finalization' => [
             'id'   => 'ethicsTopicFinalization',
             'date' => 'June 15, 2021 00:00:00',
@@ -54,7 +54,7 @@ $timer_groups = [
             'date' => 'August 3, 2021 20:00:00',
         ],
     ],
-    [
+    'Crypto' => [
         'Crypto Code' => [
             'id'   => 'cryptoCodeAssignment',
             'date' => 'July 1, 2021 20:00:00',
@@ -64,7 +64,7 @@ $timer_groups = [
             'date' => 'July 3, 2021 23:59:59',
         ],
     ],
-    [
+    'BioComp' => [
         'BioComp Assignment' => [
             'id'   => 'bioCompAssignment',
             'date' => 'July 31, 2021 20:00:00',
